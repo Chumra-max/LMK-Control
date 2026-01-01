@@ -1,0 +1,6 @@
+id=lmk_control
+name=LMK Control
+version=1.0
+versionCode=1
+author=Chumra-Max
+description=Reduces aggressive HyperOS background app killing by stabilizing LMK, optionally resizing ZRAM, disabling excessive logging, and applying UI smoothness tweaks. Configurable at install via volume keys.
