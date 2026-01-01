@@ -69,7 +69,7 @@ All options are configurable at install time using volume keys.
 
 ## **Installation**
 
-1. Download the module zip
+1. Download the [module zip](https://github.com/Chumra-max/LMK-Control/releases/tag/v1.0)
 2. Flash via Magisk or KernelSU
 3. During installation, use volume keys to select options:
 
@@ -120,8 +120,7 @@ ZRAM = Total RAM × 3 / 4
 ### **Logging Control**
 
 * Disables excessive Android, Audio, SurfaceFlinger, and vendor log tags
-* Reduces background CPU usage and memory churn
-
+* Reduces background CPU usage
 ---
 
 ### **UI Tweaks**
@@ -148,7 +147,7 @@ Designed to improve smoothness, not inflate benchmarks.
 For best results, use alongside:
 
 * LSPosed
-* App Retention Hook (PowerKeeper mitigation)
+* [App Retention Hook](https://github.com/Xposed-Modules-Repo/com.hchen.appretention)
 
 ---
 
