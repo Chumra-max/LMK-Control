@@ -10,13 +10,11 @@ HyperOS is extremely aggressive with background app management. Even locked apps
 
 * Constant app reloads
 * Broken multitasking
-* Delayed app launches
 * Unpredictable memory reclaim despite free RAM
 
 This module targets the root causes of the problem by:
 
 * Stabilizing Low Memory Killer (LMK) behavior
-* Reducing Xiaomi PowerKeeper side effects
 * Optionally resizing ZRAM
 * Optionally disabling excessive system logging
 * Optionally applying UI smoothness tweaks
@@ -36,7 +34,7 @@ All options are configurable at install time using volume keys.
   Reduces random background kills and mass app reloads.
 
 * **PowerKeeper mitigation**
-  Designed to be used alongside **App Retention Hook (LSPosed)**.
+  Designed to be used alongside **[App Retention Hook (LSPosed)](https://github.com/Xposed-Modules-Repo/com.hchen.appretention)**.
 
 * **Automatic RAM detection**
   Detects device RAM (4GB / 6GB / 8GB+) and applies matching configuration.
@@ -96,7 +94,7 @@ Locked apps are given higher priority and are far less likely to be killed unles
 
 ---
 
-## **How It Works (Technical Summary)**
+## **How It Works **
 
 ### **LMK Tuning**
 
